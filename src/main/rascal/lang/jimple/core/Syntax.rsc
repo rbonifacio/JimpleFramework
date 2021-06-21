@@ -135,6 +135,7 @@ data Expression
   | lengthOf(Immediate immediate)
   | neg(Immediate immediate) 
   | immediate(Immediate immediate)
+  | phiFunction(Variable variable, list[Variable] definitions)
   ;
   
 data ArrayDescriptor 
